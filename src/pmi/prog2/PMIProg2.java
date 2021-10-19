@@ -10,7 +10,7 @@ package pmi.prog2;
  * @author Jere
  */
 public class PMIProg2 {
-
+    int asd = 123;
     /**
      * @param args the command line arguments
      */
