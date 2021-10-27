@@ -33,10 +33,10 @@ public class MainFrame extends javax.swing.JFrame {
         mainPanel = new javax.swing.JPanel();
         testPanel = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
-        testButton = new javax.swing.JButton();
+        jTestButton = new javax.swing.JButton();
         mainMenu = new javax.swing.JPanel();
-        tituloPrincipal = new javax.swing.JLabel();
-        botones = new javax.swing.JPanel();
+        jTituloPrincipal = new javax.swing.JLabel();
+        jBotones = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -50,10 +50,10 @@ public class MainFrame extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
         jLabel2.setText("Menu de prueba :D");
 
-        testButton.setText("volver");
-        testButton.addActionListener(new java.awt.event.ActionListener() {
+        jTestButton.setText("volver");
+        jTestButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                testButtonActionPerformed(evt);
+                jTestButtonActionPerformed(evt);
             }
         });
 
@@ -68,7 +68,7 @@ public class MainFrame extends javax.swing.JFrame {
                         .addComponent(jLabel2))
                     .addGroup(testPanelLayout.createSequentialGroup()
                         .addGap(487, 487, 487)
-                        .addComponent(testButton, javax.swing.GroupLayout.PREFERRED_SIZE, 388, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jTestButton, javax.swing.GroupLayout.PREFERRED_SIZE, 388, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(257, Short.MAX_VALUE))
         );
         testPanelLayout.setVerticalGroup(
@@ -77,13 +77,13 @@ public class MainFrame extends javax.swing.JFrame {
                 .addGap(190, 190, 190)
                 .addComponent(jLabel2)
                 .addGap(209, 209, 209)
-                .addComponent(testButton)
+                .addComponent(jTestButton)
                 .addContainerGap(324, Short.MAX_VALUE))
         );
 
-        tituloPrincipal.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        tituloPrincipal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        tituloPrincipal.setText("Trabajo Practico de Maquina");
+        jTituloPrincipal.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        jTituloPrincipal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jTituloPrincipal.setText("Trabajo Practico de Maquina");
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jButton1.setText("Agregar Hipoteca");
@@ -118,20 +118,20 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout botonesLayout = new javax.swing.GroupLayout(botones);
-        botones.setLayout(botonesLayout);
-        botonesLayout.setHorizontalGroup(
-            botonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jBotonesLayout = new javax.swing.GroupLayout(jBotones);
+        jBotones.setLayout(jBotonesLayout);
+        jBotonesLayout.setHorizontalGroup(
+            jBotonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 100, Short.MAX_VALUE)
-            .addGroup(botonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(botonesLayout.createSequentialGroup()
+            .addGroup(jBotonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jBotonesLayout.createSequentialGroup()
                     .addContainerGap()
-                    .addGroup(botonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                        .addGroup(botonesLayout.createSequentialGroup()
+                    .addGroup(jBotonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
+                        .addGroup(jBotonesLayout.createSequentialGroup()
                             .addComponent(jButton1)
                             .addGap(133, 133, 133)
                             .addComponent(jButton2))
-                        .addGroup(botonesLayout.createSequentialGroup()
+                        .addGroup(jBotonesLayout.createSequentialGroup()
                             .addComponent(jButton3)
                             .addGap(99, 99, 99)
                             .addComponent(jButton4))
@@ -139,17 +139,17 @@ public class MainFrame extends javax.swing.JFrame {
                         .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addContainerGap()))
         );
-        botonesLayout.setVerticalGroup(
-            botonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jBotonesLayout.setVerticalGroup(
+            jBotonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 100, Short.MAX_VALUE)
-            .addGroup(botonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(botonesLayout.createSequentialGroup()
+            .addGroup(jBotonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jBotonesLayout.createSequentialGroup()
                     .addContainerGap()
-                    .addGroup(botonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addGroup(jBotonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jButton1)
                         .addComponent(jButton2))
                     .addGap(34, 34, 34)
-                    .addGroup(botonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addGroup(jBotonesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jButton3)
                         .addComponent(jButton4))
                     .addGap(37, 37, 37)
@@ -163,23 +163,23 @@ public class MainFrame extends javax.swing.JFrame {
         mainMenu.setLayout(mainMenuLayout);
         mainMenuLayout.setHorizontalGroup(
             mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(tituloPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, 1144, Short.MAX_VALUE)
+            .addComponent(jTituloPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, 1144, Short.MAX_VALUE)
             .addGroup(mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(mainMenuLayout.createSequentialGroup()
                     .addGap(190, 190, 190)
-                    .addComponent(botones, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jBotones, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGap(191, 191, 191)))
         );
         mainMenuLayout.setVerticalGroup(
             mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mainMenuLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
-                .addComponent(tituloPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTituloPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(737, Short.MAX_VALUE))
             .addGroup(mainMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(mainMenuLayout.createSequentialGroup()
                     .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(botones, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jBotones, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(0, 0, Short.MAX_VALUE)))
         );
 
@@ -250,13 +250,13 @@ public class MainFrame extends javax.swing.JFrame {
         gotoMenu(testPanel);
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void testButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_testButtonActionPerformed
+    private void jTestButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTestButtonActionPerformed
         /*mainPanel.removeAll();
         mainPanel.add(mainMenu);
         mainPanel.repaint();
         mainPanel.revalidate();*/
         gotoMenu(mainMenu);
-    }//GEN-LAST:event_testButtonActionPerformed
+    }//GEN-LAST:event_jTestButtonActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 
@@ -303,7 +303,7 @@ public class MainFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel botones;
+    private javax.swing.JPanel jBotones;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -311,10 +311,10 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JButton jTestButton;
+    private javax.swing.JLabel jTituloPrincipal;
     private javax.swing.JPanel mainMenu;
     private javax.swing.JPanel mainPanel;
-    private javax.swing.JButton testButton;
     private javax.swing.JPanel testPanel;
-    private javax.swing.JLabel tituloPrincipal;
     // End of variables declaration//GEN-END:variables
 }

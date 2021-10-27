@@ -100,7 +100,7 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="487" max="-2" attributes="0"/>
-                              <Component id="testButton" min="-2" pref="388" max="-2" attributes="0"/>
+                              <Component id="jTestButton" min="-2" pref="388" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace pref="257" max="32767" attributes="0"/>
@@ -113,7 +113,7 @@
                       <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
                       <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="209" max="-2" attributes="0"/>
-                      <Component id="testButton" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTestButton" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="324" max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -128,12 +128,12 @@
                 <Property name="text" type="java.lang.String" value="Menu de prueba :D"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="testButton">
+            <Component class="javax.swing.JButton" name="jTestButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="volver"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="testButtonActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTestButtonActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
@@ -143,11 +143,11 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="tituloPrincipal" alignment="0" pref="1144" max="32767" attributes="0"/>
+                  <Component id="jTituloPrincipal" alignment="0" pref="1144" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
-                          <Component id="botones" max="32767" attributes="0"/>
+                          <Component id="jBotones" max="32767" attributes="0"/>
                           <EmptySpace min="-2" pref="191" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -157,13 +157,13 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
-                      <Component id="tituloPrincipal" min="-2" pref="67" max="-2" attributes="0"/>
+                      <Component id="jTituloPrincipal" min="-2" pref="67" max="-2" attributes="0"/>
                       <EmptySpace pref="737" max="32767" attributes="0"/>
                   </Group>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="botones" min="-2" max="-2" attributes="0"/>
+                          <Component id="jBotones" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -171,7 +171,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="tituloPrincipal">
+            <Component class="javax.swing.JLabel" name="jTituloPrincipal">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Comic Sans MS" size="24" style="0"/>
@@ -180,7 +180,7 @@
                 <Property name="text" type="java.lang.String" value="Trabajo Practico de Maquina"/>
               </Properties>
             </Component>
-            <Container class="javax.swing.JPanel" name="botones">
+            <Container class="javax.swing.JPanel" name="jBotones">
 
               <Layout>
                 <DimensionLayout dim="0">
